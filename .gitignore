@@ -67,3 +67,6 @@ yarn-error.log
 
 #json file
 /google-service.json
+
+#json file
+google-service.json

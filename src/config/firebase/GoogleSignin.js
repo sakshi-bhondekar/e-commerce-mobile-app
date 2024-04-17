@@ -6,7 +6,7 @@ export const _signinwithGoogle = async () => {
     try {
         GoogleSignin.configure({
             offlineAccess: false,
-            webClientId: '797259169401-kkg8dvcsce2ma3c7el611v3dt9sn2jpl.apps.googleusercontent.com',
+            webClientId: 'abcd123',
             scopes: ['profile', 'email']
         })
         await GoogleSignin.hasPlayServices();
